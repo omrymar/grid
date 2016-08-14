@@ -1,0 +1,17 @@
+.container_12
+{
+  $num : 12;
+  @include alternative_grid($num);
+}
+
+.container_16
+{
+  $num : 16;
+  @include alternative_grid($num);
+}
+
+.container_24
+{
+  $num : 24;
+  @include alternative_grid($num);
+}
