@@ -56,20 +56,16 @@ p {
 
 .container_12 {
   background-image: url("../img/12_col.gif");
-  width: 960px;
-  /*p {
-      border: 1px solid $color-borders-main;
-      text-align: center;
-    }*/ }
+  width: 960px; }
+  .container_12 p {
+    border: 1px solid #333333;
+    text-align: center; }
   .container_12 .grid_1 {
     width: 60px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "1/12"; }
+  .container_12 .grid_1:before {
+    content: 0.08333; }
   .container_12 .prefix_1 {
     margin-left: 90px; }
   .container_12 .suffix_1 {
@@ -86,11 +82,8 @@ p {
     width: 140px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "2/12"; }
+  .container_12 .grid_2:before {
+    content: 0.16667; }
   .container_12 .prefix_2 {
     margin-left: 170px; }
   .container_12 .suffix_2 {
@@ -107,11 +100,8 @@ p {
     width: 220px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "3/12"; }
+  .container_12 .grid_3:before {
+    content: 0.25; }
   .container_12 .prefix_3 {
     margin-left: 250px; }
   .container_12 .suffix_3 {
@@ -128,11 +118,8 @@ p {
     width: 300px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "4/12"; }
+  .container_12 .grid_4:before {
+    content: 0.33333; }
   .container_12 .prefix_4 {
     margin-left: 330px; }
   .container_12 .suffix_4 {
@@ -149,11 +136,8 @@ p {
     width: 380px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "5/12"; }
+  .container_12 .grid_5:before {
+    content: 0.41667; }
   .container_12 .prefix_5 {
     margin-left: 410px; }
   .container_12 .suffix_5 {
@@ -170,11 +154,8 @@ p {
     width: 460px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "6/12"; }
+  .container_12 .grid_6:before {
+    content: 0.5; }
   .container_12 .prefix_6 {
     margin-left: 490px; }
   .container_12 .suffix_6 {
@@ -191,11 +172,8 @@ p {
     width: 540px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "7/12"; }
+  .container_12 .grid_7:before {
+    content: 0.58333; }
   .container_12 .prefix_7 {
     margin-left: 570px; }
   .container_12 .suffix_7 {
@@ -212,11 +190,8 @@ p {
     width: 620px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "8/12"; }
+  .container_12 .grid_8:before {
+    content: 0.66667; }
   .container_12 .prefix_8 {
     margin-left: 650px; }
   .container_12 .suffix_8 {
@@ -233,11 +208,8 @@ p {
     width: 700px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "9/12"; }
+  .container_12 .grid_9:before {
+    content: 0.75; }
   .container_12 .prefix_9 {
     margin-left: 730px; }
   .container_12 .suffix_9 {
@@ -254,11 +226,8 @@ p {
     width: 780px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "10/12"; }
+  .container_12 .grid_10:before {
+    content: 0.83333; }
   .container_12 .prefix_10 {
     margin-left: 810px; }
   .container_12 .suffix_10 {
@@ -275,11 +244,8 @@ p {
     width: 860px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "11/12"; }
+  .container_12 .grid_11:before {
+    content: 0.91667; }
   .container_12 .prefix_11 {
     margin-left: 890px; }
   .container_12 .suffix_11 {
@@ -296,11 +262,8 @@ p {
     width: 940px;
     margin: 1em 10px;
     float: left; }
-  .container_12 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_12 p :after {
-      content: "12/12"; }
+  .container_12 .grid_12:before {
+    content: 1; }
   .container_12 .prefix_12 {
     margin-left: 970px; }
   .container_12 .suffix_12 {
@@ -316,20 +279,16 @@ p {
 
 .container_16 {
   background-image: url("../img/16_col.gif");
-  width: 960px;
-  /*p {
-      border: 1px solid $color-borders-main;
-      text-align: center;
-    }*/ }
+  width: 960px; }
+  .container_16 p {
+    border: 1px solid #333333;
+    text-align: center; }
   .container_16 .grid_1 {
     width: 40px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "1/16"; }
+  .container_16 .grid_1:before {
+    content: 0.0625; }
   .container_16 .prefix_1 {
     margin-left: 70px; }
   .container_16 .suffix_1 {
@@ -346,11 +305,8 @@ p {
     width: 100px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "2/16"; }
+  .container_16 .grid_2:before {
+    content: 0.125; }
   .container_16 .prefix_2 {
     margin-left: 130px; }
   .container_16 .suffix_2 {
@@ -367,11 +323,8 @@ p {
     width: 160px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "3/16"; }
+  .container_16 .grid_3:before {
+    content: 0.1875; }
   .container_16 .prefix_3 {
     margin-left: 190px; }
   .container_16 .suffix_3 {
@@ -388,11 +341,8 @@ p {
     width: 220px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "4/16"; }
+  .container_16 .grid_4:before {
+    content: 0.25; }
   .container_16 .prefix_4 {
     margin-left: 250px; }
   .container_16 .suffix_4 {
@@ -409,11 +359,8 @@ p {
     width: 280px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "5/16"; }
+  .container_16 .grid_5:before {
+    content: 0.3125; }
   .container_16 .prefix_5 {
     margin-left: 310px; }
   .container_16 .suffix_5 {
@@ -430,11 +377,8 @@ p {
     width: 340px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "6/16"; }
+  .container_16 .grid_6:before {
+    content: 0.375; }
   .container_16 .prefix_6 {
     margin-left: 370px; }
   .container_16 .suffix_6 {
@@ -451,11 +395,8 @@ p {
     width: 400px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "7/16"; }
+  .container_16 .grid_7:before {
+    content: 0.4375; }
   .container_16 .prefix_7 {
     margin-left: 430px; }
   .container_16 .suffix_7 {
@@ -472,11 +413,8 @@ p {
     width: 460px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "8/16"; }
+  .container_16 .grid_8:before {
+    content: 0.5; }
   .container_16 .prefix_8 {
     margin-left: 490px; }
   .container_16 .suffix_8 {
@@ -493,11 +431,8 @@ p {
     width: 520px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "9/16"; }
+  .container_16 .grid_9:before {
+    content: 0.5625; }
   .container_16 .prefix_9 {
     margin-left: 550px; }
   .container_16 .suffix_9 {
@@ -514,11 +449,8 @@ p {
     width: 580px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "10/16"; }
+  .container_16 .grid_10:before {
+    content: 0.625; }
   .container_16 .prefix_10 {
     margin-left: 610px; }
   .container_16 .suffix_10 {
@@ -535,11 +467,8 @@ p {
     width: 640px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "11/16"; }
+  .container_16 .grid_11:before {
+    content: 0.6875; }
   .container_16 .prefix_11 {
     margin-left: 670px; }
   .container_16 .suffix_11 {
@@ -556,11 +485,8 @@ p {
     width: 700px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "12/16"; }
+  .container_16 .grid_12:before {
+    content: 0.75; }
   .container_16 .prefix_12 {
     margin-left: 730px; }
   .container_16 .suffix_12 {
@@ -577,11 +503,8 @@ p {
     width: 760px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "13/16"; }
+  .container_16 .grid_13:before {
+    content: 0.8125; }
   .container_16 .prefix_13 {
     margin-left: 790px; }
   .container_16 .suffix_13 {
@@ -598,11 +521,8 @@ p {
     width: 820px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "14/16"; }
+  .container_16 .grid_14:before {
+    content: 0.875; }
   .container_16 .prefix_14 {
     margin-left: 850px; }
   .container_16 .suffix_14 {
@@ -619,11 +539,8 @@ p {
     width: 880px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "15/16"; }
+  .container_16 .grid_15:before {
+    content: 0.9375; }
   .container_16 .prefix_15 {
     margin-left: 910px; }
   .container_16 .suffix_15 {
@@ -640,11 +557,8 @@ p {
     width: 940px;
     margin: 1em 10px;
     float: left; }
-  .container_16 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_16 p :after {
-      content: "16/16"; }
+  .container_16 .grid_16:before {
+    content: 1; }
   .container_16 .prefix_16 {
     margin-left: 970px; }
   .container_16 .suffix_16 {
@@ -660,20 +574,16 @@ p {
 
 .container_24 {
   background-image: url("../img/24_col.gif");
-  width: 960px;
-  /*p {
-      border: 1px solid $color-borders-main;
-      text-align: center;
-    }*/ }
+  width: 960px; }
+  .container_24 p {
+    border: 1px solid #333333;
+    text-align: center; }
   .container_24 .grid_1 {
     width: 30px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "1/24"; }
+  .container_24 .grid_1:before {
+    content: 0.04167; }
   .container_24 .prefix_1 {
     margin-left: 45px; }
   .container_24 .suffix_1 {
@@ -690,11 +600,8 @@ p {
     width: 70px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "2/24"; }
+  .container_24 .grid_2:before {
+    content: 0.08333; }
   .container_24 .prefix_2 {
     margin-left: 85px; }
   .container_24 .suffix_2 {
@@ -711,11 +618,8 @@ p {
     width: 110px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "3/24"; }
+  .container_24 .grid_3:before {
+    content: 0.125; }
   .container_24 .prefix_3 {
     margin-left: 125px; }
   .container_24 .suffix_3 {
@@ -732,11 +636,8 @@ p {
     width: 150px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "4/24"; }
+  .container_24 .grid_4:before {
+    content: 0.16667; }
   .container_24 .prefix_4 {
     margin-left: 165px; }
   .container_24 .suffix_4 {
@@ -753,11 +654,8 @@ p {
     width: 190px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "5/24"; }
+  .container_24 .grid_5:before {
+    content: 0.20833; }
   .container_24 .prefix_5 {
     margin-left: 205px; }
   .container_24 .suffix_5 {
@@ -774,11 +672,8 @@ p {
     width: 230px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "6/24"; }
+  .container_24 .grid_6:before {
+    content: 0.25; }
   .container_24 .prefix_6 {
     margin-left: 245px; }
   .container_24 .suffix_6 {
@@ -795,11 +690,8 @@ p {
     width: 270px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "7/24"; }
+  .container_24 .grid_7:before {
+    content: 0.29167; }
   .container_24 .prefix_7 {
     margin-left: 285px; }
   .container_24 .suffix_7 {
@@ -816,11 +708,8 @@ p {
     width: 310px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "8/24"; }
+  .container_24 .grid_8:before {
+    content: 0.33333; }
   .container_24 .prefix_8 {
     margin-left: 325px; }
   .container_24 .suffix_8 {
@@ -837,11 +726,8 @@ p {
     width: 350px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "9/24"; }
+  .container_24 .grid_9:before {
+    content: 0.375; }
   .container_24 .prefix_9 {
     margin-left: 365px; }
   .container_24 .suffix_9 {
@@ -858,11 +744,8 @@ p {
     width: 390px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "10/24"; }
+  .container_24 .grid_10:before {
+    content: 0.41667; }
   .container_24 .prefix_10 {
     margin-left: 405px; }
   .container_24 .suffix_10 {
@@ -879,11 +762,8 @@ p {
     width: 430px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "11/24"; }
+  .container_24 .grid_11:before {
+    content: 0.45833; }
   .container_24 .prefix_11 {
     margin-left: 445px; }
   .container_24 .suffix_11 {
@@ -900,11 +780,8 @@ p {
     width: 470px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "12/24"; }
+  .container_24 .grid_12:before {
+    content: 0.5; }
   .container_24 .prefix_12 {
     margin-left: 485px; }
   .container_24 .suffix_12 {
@@ -921,11 +798,8 @@ p {
     width: 510px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "13/24"; }
+  .container_24 .grid_13:before {
+    content: 0.54167; }
   .container_24 .prefix_13 {
     margin-left: 525px; }
   .container_24 .suffix_13 {
@@ -942,11 +816,8 @@ p {
     width: 550px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "14/24"; }
+  .container_24 .grid_14:before {
+    content: 0.58333; }
   .container_24 .prefix_14 {
     margin-left: 565px; }
   .container_24 .suffix_14 {
@@ -963,11 +834,8 @@ p {
     width: 590px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "15/24"; }
+  .container_24 .grid_15:before {
+    content: 0.625; }
   .container_24 .prefix_15 {
     margin-left: 605px; }
   .container_24 .suffix_15 {
@@ -984,11 +852,8 @@ p {
     width: 630px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "16/24"; }
+  .container_24 .grid_16:before {
+    content: 0.66667; }
   .container_24 .prefix_16 {
     margin-left: 645px; }
   .container_24 .suffix_16 {
@@ -1005,11 +870,8 @@ p {
     width: 670px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "17/24"; }
+  .container_24 .grid_17:before {
+    content: 0.70833; }
   .container_24 .prefix_17 {
     margin-left: 685px; }
   .container_24 .suffix_17 {
@@ -1026,11 +888,8 @@ p {
     width: 710px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "18/24"; }
+  .container_24 .grid_18:before {
+    content: 0.75; }
   .container_24 .prefix_18 {
     margin-left: 725px; }
   .container_24 .suffix_18 {
@@ -1047,11 +906,8 @@ p {
     width: 750px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "19/24"; }
+  .container_24 .grid_19:before {
+    content: 0.79167; }
   .container_24 .prefix_19 {
     margin-left: 765px; }
   .container_24 .suffix_19 {
@@ -1068,11 +924,8 @@ p {
     width: 790px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "20/24"; }
+  .container_24 .grid_20:before {
+    content: 0.83333; }
   .container_24 .prefix_20 {
     margin-left: 805px; }
   .container_24 .suffix_20 {
@@ -1089,11 +942,8 @@ p {
     width: 830px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "21/24"; }
+  .container_24 .grid_21:before {
+    content: 0.875; }
   .container_24 .prefix_21 {
     margin-left: 845px; }
   .container_24 .suffix_21 {
@@ -1110,11 +960,8 @@ p {
     width: 870px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "22/24"; }
+  .container_24 .grid_22:before {
+    content: 0.91667; }
   .container_24 .prefix_22 {
     margin-left: 885px; }
   .container_24 .suffix_22 {
@@ -1131,11 +978,8 @@ p {
     width: 910px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "23/24"; }
+  .container_24 .grid_23:before {
+    content: 0.95833; }
   .container_24 .prefix_23 {
     margin-left: 925px; }
   .container_24 .suffix_23 {
@@ -1152,11 +996,8 @@ p {
     width: 950px;
     margin: 1em 5px;
     float: left; }
-  .container_24 p {
-    border: 1px solid #333333;
-    text-align: center; }
-    .container_24 p :after {
-      content: "24/24"; }
+  .container_24 .grid_24:before {
+    content: 1; }
   .container_24 .prefix_24 {
     margin-left: 965px; }
   .container_24 .suffix_24 {

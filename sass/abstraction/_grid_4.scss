@@ -1,0 +1,52 @@
+@mixin column_width_4($grid, $num)
+{
+
+  @for $i from 1 through $num
+  {
+
+    .grid_#{$i}
+    {
+      @include column_width_1($grid, $num, $i);
+    }
+
+    .grid_#{$i}
+    {
+      &:before
+      {
+        content: $i/$num;
+      }
+    }
+
+    .prefix_#{$i}
+    {
+      @include col-prefix($grid, $num, $i);
+    }
+
+    .suffix_#{$i}
+    {
+      @include col-suffix($grid, $num, $i);
+    }
+
+    .push_#{$i}
+    {
+      @include column_width_2($grid, $num, $i);
+    }
+
+    .pull_#{$i}
+    {
+      @include column_width_3($grid, $num, $i);
+    }
+
+    .alpha
+    {
+      margin-left: 0;
+    }
+
+    .omega
+    {
+      margin-right: 0;
+    }
+
+  }
+}
+
