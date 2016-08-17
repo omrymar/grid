@@ -10,16 +10,21 @@
 @import "abstraction/alternative_grid";
 @import "abstraction/grid-column";
 @import "abstraction/column-margin";
+@import "abstraction/grid_1";
+@import "abstraction/grid_2";
+@import "abstraction/grid_3";
+@import "abstraction/grid_4";
+@import "abstraction/grid_5";
+@import "abstraction/func_1";
 
 // Import base styles.
 @import "base/clearfix";
 @import "base/grid";
 @import "base/document";
 @import "base/headings";
-@import "base/paragraphs";
+//@import "base/paragraphs";
 
 // Import grid styles
 @import "grid/grids";
-//@import "grid/grid-12";
-//@import "grid/grid-16";
-//@import "grid/grid-24";
+
+

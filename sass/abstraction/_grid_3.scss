@@ -1,0 +1,3 @@
+@mixin column_width_3($grid, $num, $i){
+  left: -1 * (column_width_return($grid, $num, $i));
+}

@@ -1,0 +1,7 @@
+@function column_width_return($grid, $num, $i){
+  @return column-width(map_get(map_get($grid, $num), width), map_get(map_get($grid, $num), gutter), $num) * $i + map_get(map_get($grid, $num), gutter) * $i;
+}
+
+@function column_width_return_1($grid, $num, $i){
+  @return columns-width(map_get(map_get($grid, $num), width), map_get(map_get($grid, $num), gutter), $num, $i);
+}
